@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "xirect", "xirect\xirect.ssmssqlproj", "{0B2B617F-9600-4AB8-8465-D6F0FD4052F2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Waits-Blocks-DeadLocks", "Waits-Blocks-DeadLocks\Waits-Blocks-DeadLocks.ssmssqlproj", "{BF8FDA0D-B057-4111-AD67-0A71120B644D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Troubleshooting", "Troubleshooting\Troubleshooting.ssmssqlproj", "{79A25C7D-F47F-406A-AB52-B4354132C3DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C05DED2-3B9B-4B03-8F62-3CC38DC4FF4C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Monitoring_Activity", "Monitoring_Activity\Monitoring_Activity.ssmssqlproj", "{D7511213-7576-467D-A2B7-8D9741ABA9F0}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Gral_DB_Configuration_ServerConfiguration", "Gral_DB_Configuration_ServerConfiguration\Gral_DB_Configuration_ServerConfiguration.ssmssqlproj", "{086A399F-1DB3-4B06-8709-7327726AA2EC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Performance_Analysis", "Performance_Analysis\Performance_Analysis.ssmssqlproj", "{6AEE9E32-5D93-46B3-A0BC-ED250CE5BAC1}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ASEA_CHANGE_LOG", "ASEA_CHANGE_LOG\ASEA_CHANGE_LOG.ssmssqlproj", "{74B407ED-E6FD-482B-8B4C-8B604C3B5549}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Space_Used", "Space_Used\Space_Used.ssmssqlproj", "{51215592-8C8D-4E54-826A-F332C4E91F89}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Query_Tuning", "Query_Tuning\Query_Tuning.ssmssqlproj", "{D100F921-9903-444D-BEB4-A808C85B85DB}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Metadata_Search", "Metadata_Search\Metadata_Search.ssmssqlproj", "{0AE63441-761C-456A-83A4-C08CE565F467}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Reports", "Reports\Reports.ssmssqlproj", "{2D075177-3E74-4163-9C1D-F79C4778F23F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Partitioning", "Partitioning\Partitioning.ssmssqlproj", "{68304380-F9D8-4951-AAF7-1C18EDC71B83}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Security", "Security\Security.ssmssqlproj", "{B8F3DD2C-D502-4F1D-A997-8895888EE836}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "AlwaysON", "AlwaysON\AlwaysON.ssmssqlproj", "{7F9A1E44-E95E-4E01-843B-4F788363D124}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Best_Practices", "Best_Practices\Best_Practices.ssmssqlproj", "{846FD52E-F5D6-4FFC-8375-85625690FD7B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Instance_Config", "Instance_Config\Instance_Config.ssmssqlproj", "{C1E058BA-823A-4DD4-9606-472167CF4E81}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Extended_Events", "Extended_Events\Extended_Events.ssmssqlproj", "{4E5490B0-37A3-467C-AB6E-2DDF3841DC09}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "AzureDiagnostics", "AzureDiagnostics\AzureDiagnostics.ssmssqlproj", "{715176F8-7441-42F3-A0C6-2382133EAAF3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "MAINTENANCE", "MAINTENANCE\MAINTENANCE.ssmssqlproj", "{1098171D-2A4C-4E41-92E0-B5541D34D58B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EXPORTACION", "EXPORTACION\EXPORTACION.ssmssqlproj", "{9DC13F3D-C54F-411D-88D7-AC1BB7C28C9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69C0EC6D-F172-43FC-BC43-52714BD73C18}.Default|Default.ActiveCfg = Default
+		{0B2B617F-9600-4AB8-8465-D6F0FD4052F2}.Default|Default.ActiveCfg = Default
+		{BF8FDA0D-B057-4111-AD67-0A71120B644D}.Default|Default.ActiveCfg = Default
+		{79A25C7D-F47F-406A-AB52-B4354132C3DB}.Default|Default.ActiveCfg = Default
+		{D7511213-7576-467D-A2B7-8D9741ABA9F0}.Default|Default.ActiveCfg = Default
+		{086A399F-1DB3-4B06-8709-7327726AA2EC}.Default|Default.ActiveCfg = Default
+		{6AEE9E32-5D93-46B3-A0BC-ED250CE5BAC1}.Default|Default.ActiveCfg = Default
+		{74B407ED-E6FD-482B-8B4C-8B604C3B5549}.Default|Default.ActiveCfg = Default
+		{51215592-8C8D-4E54-826A-F332C4E91F89}.Default|Default.ActiveCfg = Default
+		{D100F921-9903-444D-BEB4-A808C85B85DB}.Default|Default.ActiveCfg = Default
+		{0AE63441-761C-456A-83A4-C08CE565F467}.Default|Default.ActiveCfg = Default
+		{2D075177-3E74-4163-9C1D-F79C4778F23F}.Default|Default.ActiveCfg = Default
+		{68304380-F9D8-4951-AAF7-1C18EDC71B83}.Default|Default.ActiveCfg = Default
+		{B8F3DD2C-D502-4F1D-A997-8895888EE836}.Default|Default.ActiveCfg = Default
+		{7F9A1E44-E95E-4E01-843B-4F788363D124}.Default|Default.ActiveCfg = Default
+		{846FD52E-F5D6-4FFC-8375-85625690FD7B}.Default|Default.ActiveCfg = Default
+		{C1E058BA-823A-4DD4-9606-472167CF4E81}.Default|Default.ActiveCfg = Default
+		{4E5490B0-37A3-467C-AB6E-2DDF3841DC09}.Default|Default.ActiveCfg = Default
+		{715176F8-7441-42F3-A0C6-2382133EAAF3}.Default|Default.ActiveCfg = Default
+		{1098171D-2A4C-4E41-92E0-B5541D34D58B}.Default|Default.ActiveCfg = Default
+		{9DC13F3D-C54F-411D-88D7-AC1BB7C28C9C}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53699E50-6D91-4ED2-91D1-395BA9EDE251}
+	EndGlobalSection
+EndGlobal

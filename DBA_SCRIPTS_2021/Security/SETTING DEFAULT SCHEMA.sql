@@ -1,0 +1,1 @@
+ALTER USER [BodyLogic_Test ReadExecute] WITH DEFAULT_SCHEMA = dbo;

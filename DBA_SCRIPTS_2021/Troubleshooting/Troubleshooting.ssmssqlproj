@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Troubleshooting">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="dlo6zra872.database.windows.net,1433:gabalde">
+          <Created>2021-04-01T21:38:35.6053933-03:00</Created>
+          <Type>SQL</Type>
+          <Server>dlo6zra872.database.windows.net,1433</Server>
+          <UserName>gabalde</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="modballs.database.xirect.com:gabalde@xirectds.com">
+          <Created>2021-07-19T16:34:39.0318669-03:00</Created>
+          <Type>SQL</Type>
+          <Server>modballs.database.xirect.com</Server>
+          <UserName>gabalde@xirectds.com</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="xirectexpress.database.xirect.com:gabalde@xirectds.com">
+          <Created>2021-07-12T17:37:57.981519-03:00</Created>
+          <Type>SQL</Type>
+          <Server>xirectexpress.database.xirect.com</Server>
+          <UserName>gabalde@xirectds.com</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="xirectinternal.database.xirect.com:xirect">
+          <Created>2021-07-19T16:55:09.8386328-03:00</Created>
+          <Type>SQL</Type>
+          <Server>xirectinternal.database.xirect.com</Server>
+          <UserName>xirect</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>Logging</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="PROBLEMAS EN APLICACION.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xirectinternal.database.xirect.com:False:xirect</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>xirectinternal.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>xirect</AssociatedConnUserName>
+          <FullPath>PROBLEMAS EN APLICACION.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_BlitzCache.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_BlitzCache.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_BlitzFirst.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_BlitzFirst.sql</FullPath>
+        </FileNode>
+        <FileNode Name="spSQLTroubleshooting.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>spSQLTroubleshooting.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Troubleshooting.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:modballs.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>modballs.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>Troubleshooting.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

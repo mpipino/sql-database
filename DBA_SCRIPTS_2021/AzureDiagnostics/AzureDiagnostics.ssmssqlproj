@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AzureDiagnostics">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="dlo6zra872.database.windows.net,1433:gabalde">
+          <Created>2021-05-20T16:30:29.7944977-03:00</Created>
+          <Type>SQL</Type>
+          <Server>dlo6zra872.database.windows.net,1433</Server>
+          <UserName>gabalde</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>Asea_Prod</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="xirectexpress.database.xirect.com:gabalde@xirectds.com">
+          <Created>2021-07-12T17:34:58.9199344-03:00</Created>
+          <Type>SQL</Type>
+          <Server>xirectexpress.database.xirect.com</Server>
+          <UserName>gabalde@xirectds.com</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>Express_Test</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CheckDeployment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xirectexpress.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>xirectexpress.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>CheckDeployment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_CalculateVolume.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_CalculateVolume.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

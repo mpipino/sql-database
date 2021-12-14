@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Query_Tuning">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="bodylogic.database.xirect.com:gabalde@xirectds.com">
+          <Created>2021-04-05T12:26:34.1530009-03:00</Created>
+          <Type>SQL</Type>
+          <Server>bodylogic.database.xirect.com</Server>
+          <UserName>gabalde@xirectds.com</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>BodyLogic_Live</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="dlo6zra872.database.windows.net,1433:gabalde">
+          <Created>2021-04-03T23:39:41.102375-03:00</Created>
+          <Type>SQL</Type>
+          <Server>dlo6zra872.database.windows.net,1433</Server>
+          <UserName>gabalde</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>Asea_Prod</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="xirectexpress.database.xirect.com:gabalde@xirectds.com">
+          <Created>2021-04-08T20:06:41.9696394-03:00</Created>
+          <Type>SQL</Type>
+          <Server>xirectexpress.database.xirect.com</Server>
+          <UserName>gabalde@xirectds.com</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Bl_Autoship_Distributor_Discounts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>Bl_Autoship_Distributor_Discounts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Distributor_EnrollmentTree_Sp.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>Distributor_EnrollmentTree_Sp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Distributor_ForceSettings_Get_ByDistributorIdByStatus_Sp.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xirectexpress.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>xirectexpress.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>Distributor_ForceSettings_Get_ByDistributorIdByStatus_Sp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Order_processingdelayedpv.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Order_processingdelayedpv.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_CalculateVolume.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_CalculateVolume.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_CalculateVolume_CONVERTION TO MEMORY TABLES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_CalculateVolume_CONVERTION TO MEMORY TABLES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_CalculateVolume_tbl_distributor_commissions_v2_INDEXES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_CalculateVolume_tbl_distributor_commissions_v2_INDEXES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_GetTree_DS_Golds_XSS_hourly.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_GetTree_DS_Golds_XSS_hourly.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_ORDERS_UPDATETRANSACTION.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>SP_ORDERS_UPDATETRANSACTION.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_PHOENIX_XB_DashBoard_GetTeamEnrollMents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>SP_PHOENIX_XB_DashBoard_GetTeamEnrollMents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SP_SEARCH_CRITERIA_RESULTS_PAGINATION.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>SP_SEARCH_CRITERIA_RESULTS_PAGINATION.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_xPhoenix_GetAll_Alersystem_V1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_xPhoenix_GetAll_Alersystem_V1.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

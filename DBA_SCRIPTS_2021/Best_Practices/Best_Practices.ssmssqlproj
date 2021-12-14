@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Best_Practices">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="dlo6zra872.database.windows.net,1433:gabalde">
+          <Created>2021-04-29T11:54:55.2309693-03:00</Created>
+          <Type>SQL</Type>
+          <Server>dlo6zra872.database.windows.net,1433</Server>
+          <UserName>gabalde</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="BPCheck_Buffer Pool Extension info subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Buffer Pool Extension info subsection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Check_BP_Servers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Check_BP_Servers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Database file autogrows last 72h subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Database file autogrows last 72h subsection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Database Information subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Database Information subsection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Database triggers subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Database triggers subsection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Disk space subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Disk space subsection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_HA Information subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_HA Information subsection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Instance info subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Instance info subsection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Linked servers info subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Linked servers info subsection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Logon triggers subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Logon triggers subsection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_OS Version and Architecture subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_OS Version and Architecture subsection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Prerequisitos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Prerequisitos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Prerequisitos_2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Prerequisitos_2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Resource Governor info subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Resource Governor info subsection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BPCheck_Uptime subsection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>BPCheck_Uptime subsection.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

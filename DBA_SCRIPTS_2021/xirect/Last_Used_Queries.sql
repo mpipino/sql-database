@@ -1,0 +1,2 @@
+sp_help Commissions_Distributor_Temp
+sp_spaceused Commissions_Distributor_Temp

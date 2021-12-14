@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Performance_Analysis">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="bodylogic.database.xirect.com:gabalde@xirectds.com">
+          <Created>2021-04-01T10:03:06.8605056-03:00</Created>
+          <Type>SQL</Type>
+          <Server>bodylogic.database.xirect.com</Server>
+          <UserName>gabalde@xirectds.com</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="dlo6zra872.database.windows.net,1433:asearepsite">
+          <Created>2021-12-10T18:33:00.9398834-03:00</Created>
+          <Type>SQL</Type>
+          <Server>dlo6zra872.database.windows.net,1433</Server>
+          <UserName>asearepsite</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>Asea_Archive</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="dlo6zra872.database.windows.net,1433:gabalde">
+          <Created>2021-04-01T10:53:42.2575307-03:00</Created>
+          <Type>SQL</Type>
+          <Server>dlo6zra872.database.windows.net,1433</Server>
+          <UserName>gabalde</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="xirectexpress.database.xirect.com:gabalde@xirectds.com">
+          <Created>2021-06-08T14:42:46.218482-03:00</Created>
+          <Type>SQL</Type>
+          <Server>xirectexpress.database.xirect.com</Server>
+          <UserName>gabalde@xirectds.com</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Azure_Recomendations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Azure_Recomendations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CACHECalculaEspacioUtilizadoporSPROC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>CACHECalculaEspacioUtilizadoporSPROC.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ColumnsNameWithDifferentDataTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>ColumnsNameWithDifferentDataTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Compression_Analysis.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Compression_Analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Compression_Analysis_view_CompressionGains.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Compression_Analysis_view_CompressionGains.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CONVERT_IMPLICIT in Executions Plans.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>CONVERT_IMPLICIT in Executions Plans.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Creacion CommandExecute.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Creacion CommandExecute.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Creacion Index Optimize.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:asearepsite</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>asearepsite</AssociatedConnUserName>
+          <FullPath>Creacion Index Optimize.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Creation Index Optimize TEMPORAL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:asearepsite</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>asearepsite</AssociatedConnUserName>
+          <FullPath>Creation Index Optimize TEMPORAL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DATABASE AND FILE USAGE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>DATABASE AND FILE USAGE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Duplicates_Indexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Duplicates_Indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Execution_Plan.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Execution_Plan.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Find a specific MERGE o TABLE ref TRACK A QUERY.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>Find a specific MERGE o TABLE ref TRACK A QUERY.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fix_VLFs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Fix_VLFs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Full_Text.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Full_Text.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Index Defrag_Statistics.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Index Defrag_Statistics.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Last_Executions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>Last_Executions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MEMORY.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>MEMORY.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Missing_Indexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xirectexpress.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>xirectexpress.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>Missing_Indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MISSING_STATS_FROM_PROFILER.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>MISSING_STATS_FROM_PROFILER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Most_Used_SPs_with_Missing_Indexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Most_Used_SPs_with_Missing_Indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Page_Splits.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Page_Splits.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Service or Server Capacity Info.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Service or Server Capacity Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Slowlest SPs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Slowlest SPs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_BlitzCache.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_BlitzCache.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_BlitzFirst.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_BlitzFirst.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_BlitzIndex.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_BlitzIndex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_BlitzQueryStore.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>sp_BlitzQueryStore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table_Indexes_Access_Pattern.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Table_Indexes_Access_Pattern.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TEMPDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>TEMPDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="top_queries_by_average_CPU_time.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>top_queries_by_average_CPU_time.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Trigger_for_Index_Creation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>Trigger_for_Index_Creation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_HypObjects.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>view_HypObjects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_IndexCreation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>view_IndexCreation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_IndexInformation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>view_IndexInformation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view_IndexInformation_CurrentDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>view_IndexInformation_CurrentDB.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
