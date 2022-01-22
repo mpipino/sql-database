@@ -7,7 +7,7 @@ SELECT    MID.[statement] AS ObjectName
 	,MIGS.last_user_seek AS LastUserSeek  
 	,MIGS.avg_total_user_cost  
 	* MIGS.avg_user_impact  * (MIGS.user_seeks + MIGS.user_scans) AS Impact  
-	,N'CREATE NONCLUSTERED INDEX ix_NN_' + REPLACE(REPLACE(REPLACE(MID.equality_columns, ']', '_'),'[',''), ',','_') + '_Incl_Comp_6_8_2021 ' +
+	,N'CREATE NONCLUSTERED INDEX ix_NN_' + REPLACE(REPLACE(REPLACE(MID.equality_columns, ']', '_'),'[',''), ',','_') + '_Incl_Comp_21_1_2021 ' +
 	N'ON ' + MID.[statement] +  
 	N' (' + MID.equality_columns  
 	+ ISNULL(', ' + MID.inequality_columns, N'') +  
