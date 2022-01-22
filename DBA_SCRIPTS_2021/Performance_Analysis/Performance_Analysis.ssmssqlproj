@@ -103,6 +103,18 @@
           <AssociatedConnUserName>asearepsite</AssociatedConnUserName>
           <FullPath>Creacion Index Optimize.sql</FullPath>
         </FileNode>
+        <FileNode Name="CREACION sp_BlitzCache TEMPORAL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>CREACION sp_BlitzCache TEMPORAL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREACION sp_BlitzFirst TEMPORAL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>CREACION sp_BlitzFirst TEMPORAL.sql</FullPath>
+        </FileNode>
         <FileNode Name="Creation Index Optimize TEMPORAL.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:asearepsite</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
@@ -164,8 +176,8 @@
           <FullPath>MEMORY.sql</FullPath>
         </FileNode>
         <FileNode Name="Missing_Indexes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xirectexpress.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>xirectexpress.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
           <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>Missing_Indexes.sql</FullPath>
         </FileNode>
@@ -206,9 +218,9 @@
           <FullPath>sp_BlitzCache.sql</FullPath>
         </FileNode>
         <FileNode Name="sp_BlitzFirst.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>sp_BlitzFirst.sql</FullPath>
         </FileNode>
         <FileNode Name="sp_BlitzIndex.sql">

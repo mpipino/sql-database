@@ -103,6 +103,12 @@
           <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>GRANTS_Regeneracion_Usario.sql</FullPath>
         </FileNode>
+        <FileNode Name="Identify server admin.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>Identify server admin.sql</FullPath>
+        </FileNode>
         <FileNode Name="list all DB permissions.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:modballs.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>modballs.database.xirect.com</AssociatedConnSrvName>
