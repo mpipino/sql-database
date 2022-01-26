@@ -15,6 +15,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="dlo6zra872.database.windows.net,1433:asearepsite">
+          <Created>2022-01-25T23:30:18.0851331-03:00</Created>
+          <Type>SQL</Type>
+          <Server>dlo6zra872.database.windows.net,1433</Server>
+          <UserName>asearepsite</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="dlo6zra872.database.windows.net,1433:gabalde">
           <Created>2021-04-05T15:37:41.0127334-03:00</Created>
           <Type>SQL</Type>
@@ -48,6 +60,18 @@
           <AssociatedConnSrvName>xirectexpress.database.xirect.com</AssociatedConnSrvName>
           <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>All Columns and Datatypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Identity Status For AZURE DATABASES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:asearepsite</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>asearepsite</AssociatedConnUserName>
+          <FullPath>Identity Status For AZURE DATABASES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Identity Status.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>Identity Status.sql</FullPath>
         </FileNode>
         <FileNode Name="sql_modules.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xirectexpress.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
