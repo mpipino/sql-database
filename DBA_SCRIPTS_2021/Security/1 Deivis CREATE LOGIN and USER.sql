@@ -48,15 +48,15 @@ GO
 
 Ejemplo de modballs_live:
 
-CREATE LOGIN xapiModBallsLive WITH PASSWORD = 'e7VG5qeY7SKY4c'
-CREATE LOGIN xautoshipModBallsLive WITH PASSWORD = 'cGaX3qfWk4qrMc'
-CREATE LOGIN xbackofficeModBallsLive WITH PASSWORD = '6Wi6ANwPg67k4f'
-CREATE LOGIN xcorporateModBallsLive WITH PASSWORD = 'ignDbBGdH3Bd4y'
-CREATE LOGIN xenrollModBallsLive WITH PASSWORD = 'XF4zuK7Z3Myvx4'
-CREATE LOGIN xorderModBallsLive WITH PASSWORD = 'fxeswmt7dtYZem'
-CREATE LOGIN xruntasksModBallsLive WITH PASSWORD = '3Dhv4BPT5X8beb'
-CREATE LOGIN xtranslationsModBallsLive WITH PASSWORD = 'rD49zUr85E9itT'
-CREATE LOGIN xwebservicescommModBallsLive WITH PASSWORD = 'TzywNNeFXRN47d'
+CREATE LOGIN xapiModBallsLive WITH PASSWORD = ''
+CREATE LOGIN xautoshipModBallsLive WITH PASSWORD = ''
+CREATE LOGIN xbackofficeModBallsLive WITH PASSWORD = ''
+CREATE LOGIN xcorporateModBallsLive WITH PASSWORD = ''
+CREATE LOGIN xenrollModBallsLive WITH PASSWORD = ''
+CREATE LOGIN xorderModBallsLive WITH PASSWORD = ''
+CREATE LOGIN xruntasksModBallsLive WITH PASSWORD = ''
+CREATE LOGIN xtranslationsModBallsLive WITH PASSWORD = ''
+CREATE LOGIN xwebservicescommModBallsLive WITH PASSWORD = ''
 
 CREATE USER xapiModBallsLive FOR LOGIN xapiModBallsLive WITH DEFAULT_SCHEMA =[dbo]  
 CREATE USER xautoshipModBallsLive FOR LOGIN xautoshipModBallsLive WITH DEFAULT_SCHEMA =[dbo]  
