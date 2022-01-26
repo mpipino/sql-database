@@ -1,11 +1,14 @@
 /*
 
-exec ##sp_BlitzIndex @mode=3
+exec ##sp_BlitzIndex @mode=3 --missing indexes.
 
 exec dba.sp_BlitzIndex
 
 EXEC dbo.sp_BlitzIndex @DatabaseName='Asea_Prod', @SchemaName='dbo', @TableName='tbl_distributor_commissions_v2';
 EXEC dbo.sp_BlitzIndex @DatabaseName='Asea_Prod', @SchemaName='dbo', @TableName='tbl_Orders_Header';
+
+EXEC dbo.##sp_BlitzIndex @DatabaseName='BodyLogic_Live', @SchemaName='Prd', @TableName='ProductPrice_Market';
+exec sp_spaceused 'prd.ProductPrice_Market'
 */
 
 
