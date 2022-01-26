@@ -1,5 +1,5 @@
 -- After Create Group AD in azure
--- in Master and DB live
+-- in Master and DB live.
 create user [BioBoNum ReadExecute]
 from external provider
 with default_schema =dbo
