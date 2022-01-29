@@ -1,7 +1,7 @@
 /*
 EXEC ##sp_BlitzCache
 
-EXEC ##sp_BlitzCachee @StoredProcName = 'sp_CalculateVolume'
+EXEC ##sp_BlitzCache @StoredProcName = 'sp_CalculateVolume'
 
 
 
@@ -9,7 +9,7 @@ EXEC ##sp_BlitzCache @SortOrder = 'recent compilations'
 EXEC ##sp_BlitzCache @SortOrder = 'query hash';
 
 
-
+EXEC ##sp_BlitzCache @SortOrder = 'avg reads'
 EXEC ##sp_BlitzCache @SortOrder = 'avg writes'
 
 

@@ -15,8 +15,8 @@ EXECUTE dba.##IndexOptimize
 
 --DROP PROC  [##IndexOptimize]
 EXECUTE [dbo].[##IndexOptimize]
-						 @Databases = 'Asea_Archive', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
-						 ,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 20, @FragmentationLevel2 = 40
+						 @Databases = 'Asea_Stage', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
+						 ,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 10, @FragmentationLevel2 = 40
 						 --,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 40, @FragmentationLevel2 = 80
 						 , @MaxDOP = 4				
 						 --,@MaxNumberOfPages=5000
@@ -24,7 +24,7 @@ EXECUTE [dbo].[##IndexOptimize]
 						 ,@Execute='n'
 						 --,@LogToTable='y'
 						 --Commissions_Distributor_Temp
-						 --,@Indexes = 'BodyLogic_Live.dbo.Commissions_Distributor_Temp'
+						 ,@Indexes = 'asea_Stage.dbo.tbl_distributor_commissions_v2'
 						 --,@Indexes = 'Asea_Prod.dbo.tbl_distributor_commissions_v2.PK__tbl_dist__3214EC275D93B669'
 */
 SET ANSI_NULLS ON
