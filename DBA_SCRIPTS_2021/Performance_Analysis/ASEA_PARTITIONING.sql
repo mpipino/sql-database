@@ -8,12 +8,6 @@ with (data_compression=page)
 GO
 */
 
---Script de carga:
-/****** Object:  PartitionScheme [PS_PARTITION_1_105]    Script Date: 12/16/2021 7:29:34 PM ******/
---DROP PARTITION SCHEME [PS_PARTITION_1_105]
-CREATE PARTITION SCHEME [PS_PARTITION_1_160] AS PARTITION [PF_PARTITION_1_160] 
-ALL TO ([PRIMARY])
-
 /****** Object:  PartitionFunction [PF_PARTITION_1_105]    Script Date: 12/16/2021 7:31:22 PM ******/
 --DROP PARTITION FUNCTION [PF_PARTITION_1_105]
 CREATE PARTITION FUNCTION [PF_PARTITION_1_160](int) AS RANGE LEFT 
@@ -21,6 +15,15 @@ FOR VALUES (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2
 , 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147,148, 149
 ,150,151,152,153,154,155,156,157,158,159,160)
 GO
+
+
+--Script de carga:
+/****** Object:  PartitionScheme [PS_PARTITION_1_105]    Script Date: 12/16/2021 7:29:34 PM ******/
+--DROP PARTITION SCHEME [PS_PARTITION_1_105]
+CREATE PARTITION SCHEME [PS_PARTITION_1_160] AS PARTITION [PF_PARTITION_1_160] 
+ALL TO ([PRIMARY])
+
+
 
 /****** Object:  Table [dbo].[tbl_distributor_commissions_v2_PART]    Script Date: 12/17/2021 7:37:42 PM ******/
 SET ANSI_NULLS ON
