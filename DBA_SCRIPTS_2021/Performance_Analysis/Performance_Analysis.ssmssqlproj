@@ -62,9 +62,9 @@
           <FullPath>ASEA_ANALISIS_VCORE.sql</FullPath>
         </FileNode>
         <FileNode Name="ASEA_PARTITIONING.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:asearepsite</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>asearepsite</AssociatedConnUserName>
           <FullPath>ASEA_PARTITIONING.sql</FullPath>
         </FileNode>
         <FileNode Name="Azure_Recomendations.sql">
