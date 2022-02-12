@@ -39,6 +39,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="xcomm1.database.xirect.com:gabalde">
+          <Created>2022-02-12T20:35:53.5400914-03:00</Created>
+          <Type>SQL</Type>
+          <Server>xcomm1.database.xirect.com</Server>
+          <UserName>gabalde</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="xirectexpress.database.xirect.com:gabalde@xirectds.com">
           <Created>2021-06-08T14:42:46.218482-03:00</Created>
           <Type>SQL</Type>
@@ -109,6 +121,12 @@
           <AssociatedConnUserName />
           <FullPath>Creacion CommandExecute.sql</FullPath>
         </FileNode>
+        <FileNode Name="CREACION DEL sp_BlitzQueryStore TEMPORAL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xcomm1.database.xirect.com:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>xcomm1.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>CREACION DEL sp_BlitzQueryStore TEMPORAL.sql</FullPath>
+        </FileNode>
         <FileNode Name="Creacion Index Optimize.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:asearepsite</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
@@ -122,9 +140,9 @@
           <FullPath>CREACION sp_BlitzCache TEMPORAL.sql</FullPath>
         </FileNode>
         <FileNode Name="CREACION sp_BlitzFirst TEMPORAL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xcomm1.database.xirect.com:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>xcomm1.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
           <FullPath>CREACION sp_BlitzFirst TEMPORAL.sql</FullPath>
         </FileNode>
         <FileNode Name="Creation Index Optimize TEMPORAL.sql">
