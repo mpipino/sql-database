@@ -27,6 +27,30 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="bodylogic.database.xirect.com:xirect">
+          <Created>2022-02-12T20:28:21.1045837-03:00</Created>
+          <Type>SQL</Type>
+          <Server>bodylogic.database.xirect.com</Server>
+          <UserName>xirect</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>BodyLogic_Live</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="xcomm1.database.xirect.com:gabalde">
+          <Created>2022-02-12T19:55:46.3885157-03:00</Created>
+          <Type>SQL</Type>
+          <Server>xcomm1.database.xirect.com</Server>
+          <UserName>gabalde</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="xirectexpress.database.xirect.com:gabalde@xirectds.com">
           <Created>2021-07-23T15:08:28.9456764-03:00</Created>
           <Type>SQL</Type>
@@ -43,6 +67,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="CHECK SQL ERROR LOG y SQL AGENT ERROR LOGS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xcomm1.database.xirect.com:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>xcomm1.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>CHECK SQL ERROR LOG y SQL AGENT ERROR LOGS.sql</FullPath>
+        </FileNode>
         <FileNode Name="Log_WebService_CLEAN UP.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>

@@ -3,10 +3,34 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
+        <ConnectionNode Name="bodylogic.database.xirect.com:xirect">
+          <Created>2022-02-12T20:22:08.3439191-03:00</Created>
+          <Type>SQL</Type>
+          <Server>bodylogic.database.xirect.com</Server>
+          <UserName>xirect</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="dlo6zra872.database.windows.net,1433:gabalde">
           <Created>2021-04-01T12:55:35.6056483-03:00</Created>
           <Type>SQL</Type>
           <Server>dlo6zra872.database.windows.net,1433</Server>
+          <UserName>gabalde</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="xcomm1.database.xirect.com:gabalde">
+          <Created>2022-02-12T20:21:51.4055923-03:00</Created>
+          <Type>SQL</Type>
+          <Server>xcomm1.database.xirect.com</Server>
           <UserName>gabalde</UserName>
           <Authentication>SQL</Authentication>
           <InitialDB>master</InitialDB>
@@ -36,6 +60,12 @@
           <AssociatedConnSrvName>xirectexpress.database.xirect.com</AssociatedConnSrvName>
           <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>Empty_Tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ESPACIO DE LAS BASES DE DATOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:xirect</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>xirect</AssociatedConnUserName>
+          <FullPath>ESPACIO DE LAS BASES DE DATOS.sql</FullPath>
         </FileNode>
         <FileNode Name="Tables.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
