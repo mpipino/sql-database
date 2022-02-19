@@ -5,7 +5,7 @@ go 50
 
 
 
-EXEC [dba].##sp_WhoIsActive
+EXEC ##sp_WhoIsActive
     @filter = '',
     @filter_type = 'session',
     @not_filter = '',

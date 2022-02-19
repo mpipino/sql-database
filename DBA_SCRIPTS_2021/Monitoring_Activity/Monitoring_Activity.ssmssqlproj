@@ -15,6 +15,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="bodylogic.database.xirect.com:xirect">
+          <Created>2022-02-19T08:03:55.2164521-03:00</Created>
+          <Type>SQL</Type>
+          <Server>bodylogic.database.xirect.com</Server>
+          <UserName>xirect</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="dlo6zra872.database.windows.net,1433:asearepsite">
           <Created>2021-12-10T18:36:57.5242931-03:00</Created>
           <Type>SQL</Type>
@@ -39,7 +51,7 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
-        <ConnectionNode Name="localhost,1433:DESKTOP-LV6D4G3\abald">
+        <ConnectionNode Name="localhost,1433:LAPTOP-UJOAALAD\abald">
           <Created>2021-04-07T08:43:25.1100425-03:00</Created>
           <Type>SQL</Type>
           <Server>localhost,1433</Server>
@@ -92,9 +104,9 @@
           <FullPath>CPU by login program etc.sql</FullPath>
         </FileNode>
         <FileNode Name="CREACION SP_WHOISACTIVE TEMPORAL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:xirect</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <AssociatedConnUserName>xirect</AssociatedConnUserName>
           <FullPath>CREACION SP_WHOISACTIVE TEMPORAL.sql</FullPath>
         </FileNode>
         <FileNode Name="dba.sp_WhoIsActive.sql">

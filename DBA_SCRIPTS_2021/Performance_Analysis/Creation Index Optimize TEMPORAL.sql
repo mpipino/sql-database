@@ -7,25 +7,26 @@ EXECUTE dba.##IndexOptimize
 @FragmentationMedium = NULL,
 @FragmentationHigh = NULL,
 @UpdateStatistics = 'ALL',
-@MinNumberOfPages=10000,
+--@MinNumberOfPages=10000,
 --@OnlyModifiedStatistics = 'Y',
 @StatisticsModificationLevel=50
 ,@Execute='y'
 --,@LogToTable='y'
 
 --DROP PROC  [##IndexOptimize]
-EXECUTE [dbo].[##IndexOptimize]
-						 @Databases = 'Asea_Stage', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
-						 ,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 10, @FragmentationLevel2 = 40
-						 --,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 40, @FragmentationLevel2 = 80
+EXECUTE [dbo].[##IndexOptimize] --requiere crear antes el command execute
+						 @Databases = 'BodyLogic_Live', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
+						 --,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 10, @FragmentationLevel2 = 40
+						 ,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 40, @FragmentationLevel2 = 80
 						 , @MaxDOP = 4				
 						 --,@MaxNumberOfPages=5000
 						 --,@MinNumberOfPages=1000
-						 ,@Execute='n'
+						 ,@Execute='Y'
 						 --,@LogToTable='y'
 						 --Commissions_Distributor_Temp
-						 ,@Indexes = 'asea_Stage.dbo.tbl_distributor_commissions_v2'
+						 --,@Indexes = 'asea_Stage.dbo.tbl_distributor_commissions_v2'
 						 --,@Indexes = 'Asea_Prod.dbo.tbl_distributor_commissions_v2.PK__tbl_dist__3214EC275D93B669'
+
 */
 SET ANSI_NULLS ON
 GO
