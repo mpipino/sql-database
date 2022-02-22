@@ -20,5 +20,6 @@ INNER JOIN sys.dm_db_missing_index_details AS MID
 	 ON MIG.index_handle = MID.index_handle  
 WHERE database_id = DB_ID()  
 	 AND MIGS.last_user_seek >= DATEDIFF(month, GetDate(), -1)  
-ORDER BY LastUserSeek desc, Impact DESC;
+ORDER BY Impact DESC;
+--ORDER BY LastUserSeek desc, Impact DESC;
 go
