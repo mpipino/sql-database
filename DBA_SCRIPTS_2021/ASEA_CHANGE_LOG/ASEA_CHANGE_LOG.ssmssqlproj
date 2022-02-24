@@ -27,6 +27,30 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="modballs.database.xirect.com:xirect">
+          <Created>2022-02-24T19:44:19.4780479-03:00</Created>
+          <Type>SQL</Type>
+          <Server>modballs.database.xirect.com</Server>
+          <UserName>xirect</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>ModBalls_Dev</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="xirectexpress.database.xirect.com:xirect">
+          <Created>2022-02-24T19:53:29.3873088-03:00</Created>
+          <Type>SQL</Type>
+          <Server>xirectexpress.database.xirect.com</Server>
+          <UserName>xirect</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
@@ -72,6 +96,12 @@
           <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
           <AssociatedConnUserName>gabalde</AssociatedConnUserName>
           <FullPath>Defrag_ASEA_Stage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DEPURACION ASEA_PROD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>DEPURACION ASEA_PROD.sql</FullPath>
         </FileNode>
         <FileNode Name="Index_Compression.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
