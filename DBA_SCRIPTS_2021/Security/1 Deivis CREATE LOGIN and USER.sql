@@ -48,7 +48,7 @@ GO
 
 Ejemplo de modballs_live:
 
-CREATE LOGIN xapiModBallsLive WITH PASSWORD = ''
+CREATE LOGIN xapiImpactGlobalLive WITH PASSWORD = 'R53FnwKZc5ebxN'
 CREATE LOGIN xautoshipModBallsLive WITH PASSWORD = ''
 CREATE LOGIN xbackofficeModBallsLive WITH PASSWORD = ''
 CREATE LOGIN xcorporateModBallsLive WITH PASSWORD = ''

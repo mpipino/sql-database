@@ -164,9 +164,9 @@
           <FullPath>Duplicates_Indexes.sql</FullPath>
         </FileNode>
         <FileNode Name="Execution_Plan.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>Execution_Plan.sql</FullPath>
         </FileNode>
         <FileNode Name="Find a specific MERGE o TABLE ref TRACK A QUERY.sql">
@@ -206,9 +206,9 @@
           <FullPath>MEMORY.sql</FullPath>
         </FileNode>
         <FileNode Name="Missing Indexes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xcomm1.database.xirect.com:False:gabalde</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>xcomm1.database.xirect.com</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>Missing Indexes.sql</FullPath>
         </FileNode>
         <FileNode Name="MISSING_STATS_FROM_PROFILER.sql">
