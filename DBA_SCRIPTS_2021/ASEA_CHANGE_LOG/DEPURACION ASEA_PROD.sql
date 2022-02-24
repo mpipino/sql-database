@@ -1,3 +1,5 @@
+-- ticket relacionado: https://tickets.xirect.com/issues/60250?next_issue_id=60242&prev_issue_id=60257
+
 -- Deleting chunks of data
 declare @RunDate as date = '2013-09-06'
 declare @RunSequence as int = (select max(RunSequence) from [dbo].[TBL_ASEA_AAA_RUNDATES]
