@@ -29,4 +29,5 @@ SELECT col.TABLE_CATALOG AS [Database]
                                                   AND col.COLUMN_NAME = pk.COLUMN_NAME
  --WHERE col.TABLE_NAME = 'YourTableName'
    --AND col.TABLE_SCHEMA = 'dbo'
- ORDER BY col.TABLE_NAME, col.ORDINAL_POSITION;
+ ORDER BY col.COLUMN_NAME desc
+ --col.TABLE_NAME, col.ORDINAL_POSITION;
