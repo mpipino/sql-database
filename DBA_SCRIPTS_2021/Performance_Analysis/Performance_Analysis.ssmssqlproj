@@ -103,6 +103,12 @@
           <AssociatedConnUserName>gabalde</AssociatedConnUserName>
           <FullPath>CACHECalculaEspacioUtilizadoporSPROC.sql</FullPath>
         </FileNode>
+        <FileNode Name="cantidad de indices por tabla.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xirectexpress.database.xirect.com:False:xirect</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>xirectexpress.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>xirect</AssociatedConnUserName>
+          <FullPath>cantidad de indices por tabla.sql</FullPath>
+        </FileNode>
         <FileNode Name="ColumnsNameWithDifferentDataTypes.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
@@ -288,6 +294,12 @@
           <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
           <AssociatedConnUserName>gabalde</AssociatedConnUserName>
           <FullPath>Table_Indexes_Access_Pattern.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TABLES WITH MANY COLUMNS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xirectexpress.database.xirect.com:False:xirect</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>xirectexpress.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>xirect</AssociatedConnUserName>
+          <FullPath>TABLES WITH MANY COLUMNS.sql</FullPath>
         </FileNode>
         <FileNode Name="TEMPDB.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>

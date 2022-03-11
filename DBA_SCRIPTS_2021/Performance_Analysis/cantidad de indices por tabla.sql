@@ -14,4 +14,4 @@ GROUP BY object_id) I2
 ON i.OBJECT_ID = i2.OBJECT_ID
 WHERE o.TYPE IN ('U')
 GROUP BY s.name, o.name, p.rows
-ORDER BY NoOfNonClusteredIndex, schema_name, table_name
+ORDER BY NoOfNonClusteredIndex desc , schema_name, table_name
