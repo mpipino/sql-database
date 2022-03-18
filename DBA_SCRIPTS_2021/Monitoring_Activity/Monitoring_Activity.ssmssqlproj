@@ -104,9 +104,9 @@
           <FullPath>CPU by login program etc.sql</FullPath>
         </FileNode>
         <FileNode Name="CREACION SP_WHOISACTIVE TEMPORAL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:xirect</AssociatedConnectionMoniker>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
-          <AssociatedConnUserName>xirect</AssociatedConnUserName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>CREACION SP_WHOISACTIVE TEMPORAL.sql</FullPath>
         </FileNode>
         <FileNode Name="dba.sp_WhoIsActive.sql">

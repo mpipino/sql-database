@@ -1,6 +1,7 @@
 sp_BlitzCache
 
 [dba].sp_BlitzCache @StoredProcName = 'sp_CalculateVolume'
+[dba].sp_BlitzCache @StoredProcName = 'SP_RPT_SALESPRODUCTSUMMARYBYDAY'
 
 
 

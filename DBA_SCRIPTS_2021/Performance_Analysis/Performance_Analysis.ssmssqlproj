@@ -80,9 +80,9 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="ASEA_ANALISIS_VCORE.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
           <FullPath>ASEA_ANALISIS_VCORE.sql</FullPath>
         </FileNode>
         <FileNode Name="ASEA_PARTITIONING.sql">
@@ -116,9 +116,9 @@
           <FullPath>ColumnsNameWithDifferentDataTypes.sql</FullPath>
         </FileNode>
         <FileNode Name="Compression_Analysis.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>Compression_Analysis.sql</FullPath>
         </FileNode>
         <FileNode Name="Compression_Analysis_view_CompressionGains.sql">
@@ -140,9 +140,9 @@
           <FullPath>Creacion CommandExecute.sql</FullPath>
         </FileNode>
         <FileNode Name="CREACION DEL sp_BlitzQueryStore TEMPORAL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:xcomm1.database.xirect.com:False:gabalde</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>xcomm1.database.xirect.com</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>CREACION DEL sp_BlitzQueryStore TEMPORAL.sql</FullPath>
         </FileNode>
         <FileNode Name="Creacion Index Optimize.sql">
@@ -260,15 +260,15 @@
           <FullPath>Service or Server Capacity Info.sql</FullPath>
         </FileNode>
         <FileNode Name="Slowlest SPs.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>Slowlest SPs.sql</FullPath>
         </FileNode>
         <FileNode Name="sp_BlitzCache.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>sp_BlitzCache.sql</FullPath>
         </FileNode>
         <FileNode Name="sp_BlitzFirst.sql">
@@ -284,9 +284,9 @@
           <FullPath>sp_BlitzIndex.sql</FullPath>
         </FileNode>
         <FileNode Name="sp_BlitzQueryStore.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>sp_BlitzQueryStore.sql</FullPath>
         </FileNode>
         <FileNode Name="Table_Indexes_Access_Pattern.sql">

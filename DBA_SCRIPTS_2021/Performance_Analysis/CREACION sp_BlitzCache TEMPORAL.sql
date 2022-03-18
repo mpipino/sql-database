@@ -2,9 +2,9 @@
 EXEC ##sp_BlitzCache
 
 EXEC ##sp_BlitzCache @StoredProcName = 'sp_CalculateVolume'
-
-
-
+EXEC ##sp_BlitzCache @StoredProcName = 'SP_RPT_SALESPRODUCTSUMMARYBYDAY'
+select (148604/1000)/60
+sp_helptext SP_RPT_SALESPRODUCTSUMMARYBYDAY
 EXEC ##sp_BlitzCache @SortOrder = 'recent compilations'
 EXEC ##sp_BlitzCache @SortOrder = 'query hash';
 
