@@ -21,7 +21,7 @@ EXECUTE [dbo].[##IndexOptimize] --requiere crear antes el command execute
 						 , @MaxDOP = 4				
 						 --,@MaxNumberOfPages=5000
 						 --,@MinNumberOfPages=1000
-						 ,@Execute='Y'
+						 ,@Execute='y'
 						 --,@LogToTable='y'
 						 --Commissions_Distributor_Temp
 						 --,@Indexes = 'asea_Stage.dbo.tbl_distributor_commissions_v2'
