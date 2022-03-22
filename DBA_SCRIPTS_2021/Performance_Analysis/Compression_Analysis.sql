@@ -975,5 +975,5 @@ ON p.object_id = o.object_id
 JOIN sys.indexes i 
 ON p.object_id = i.object_id
 AND i.index_id = p.index_id
-WHERE p.data_compression > 0 
+WHERE p.data_compression > 0 and i.name='Commissions_Distributor_Rank_Lines_Temp'
 AND SCHEMA_NAME(o.schema_id) <> 'SYS' 
