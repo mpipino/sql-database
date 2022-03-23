@@ -133,6 +133,12 @@
           <AssociatedConnUserName>gabalde</AssociatedConnUserName>
           <FullPath>Login_conexiones_ipcliente.sql</FullPath>
         </FileNode>
+        <FileNode Name="QUERIES CON HIGH IO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <FullPath>QUERIES CON HIGH IO.sql</FullPath>
+        </FileNode>
         <FileNode Name="QuerysAdHoc in Cache Plans.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
