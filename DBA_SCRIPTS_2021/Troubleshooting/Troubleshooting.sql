@@ -160,7 +160,7 @@ INSERT INTO @temp
 
 EXEC sp_who
 
-SELECT COUNT(*) FROM @temp WHERE dbname = 'DB NAME'
+SELECT COUNT(*) FROM @temp WHERE dbname = 'Asea_Prod'
 
 SELECT
 [DATABASE] = DB_NAME(DBID), 
