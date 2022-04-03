@@ -20,12 +20,12 @@ EXECUTE [dbo].[##IndexOptimize] --requiere crear antes el command execute
 						 ,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 40, @FragmentationLevel2 = 80
 						 , @MaxDOP = 4				
 						 --,@MaxNumberOfPages=5000
-						 --,@MinNumberOfPages=1000
-						 ,@Execute='y'
+						 ,@MinNumberOfPages=5000
+						 ,@Execute='n'
 						 --,@LogToTable='y'
 						 --Commissions_Distributor_Temp
-						 --,@Indexes = 'asea_Stage.dbo.tbl_distributor_commissions_v2'
-						 --,@Indexes = 'Asea_Prod.dbo.tbl_distributor_commissions_v2.PK__tbl_dist__3214EC275D93B669'
+						 --,@Indexes = 'asea_Stage.dbo.Commissions_Distributor_Temp'
+						 --,@Indexes = 'Asea_Prod.dbo.tbl_distributor_commissions_v2PK__tbl_dist__3214EC275D93B669'
 
 */
 SET ANSI_NULLS ON
