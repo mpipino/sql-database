@@ -32,7 +32,7 @@ EXEC [dba].sp_WhoIsActive
         @get_plans = 1,
         @sort_order = '[blocked_session_count] DESC'
 
-EXEC [dba].sp_WhoIsActive
+EXEC dba.sp_WhoIsActive
     @filter = '',
     @filter_type = 'session',
     @not_filter = '',
@@ -57,8 +57,8 @@ EXEC [dba].sp_WhoIsActive
     @schema = NULL,
     @help = 0 
 	,@destination_table = 'dba.sp_WhoIsActive_historico'
---waitfor delay '00:00:30'
---go 920
+waitfor delay '00:00:5'
+go 5000
 go 200
 
 --truncate table [dba].[sp_WhoIsActive_historico]

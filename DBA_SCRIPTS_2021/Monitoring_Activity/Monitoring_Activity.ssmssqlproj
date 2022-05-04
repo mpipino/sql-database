@@ -80,9 +80,9 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="ASEA_Tiempo_de_calculo_comisiones.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:asearepsite</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <AssociatedConnUserName>asearepsite</AssociatedConnUserName>
           <FullPath>ASEA_Tiempo_de_calculo_comisiones.sql</FullPath>
         </FileNode>
         <FileNode Name="batch_request_sec.sql">
@@ -110,15 +110,15 @@
           <FullPath>CPU by login program etc.sql</FullPath>
         </FileNode>
         <FileNode Name="CREACION SP_WHOISACTIVE TEMPORAL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
-          <FullPath>CREACION SP_WHOISACTIVE TEMPORAL.sql</FullPath>
-        </FileNode>
-        <FileNode Name="dba.sp_WhoIsActive.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
           <AssociatedConnUserName>gabalde</AssociatedConnUserName>
+          <FullPath>CREACION SP_WHOISACTIVE TEMPORAL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dba.sp_WhoIsActive.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>dba.sp_WhoIsActive.sql</FullPath>
         </FileNode>
         <FileNode Name="dba.sp_WhoIsActive_similar_SESSIONS.sql">

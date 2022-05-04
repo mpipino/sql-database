@@ -42,8 +42,8 @@ SET NUMERIC_ROUNDABORT OFF;
 SET ARITHABORT ON;
 GO
 
-IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.ROUTINES WHERE ROUTINE_NAME = '##sp_WhoIsActive')
-	EXEC ('CREATE PROC dbo.##sp_WhoIsActive AS SELECT ''stub version, to be replaced''')
+IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.ROUTINES WHERE ROUTINE_NAME = 'dba.sp_WhoIsActive')
+	EXEC ('CREATE PROC dba.sp_WhoIsActive AS SELECT ''stub version, to be replaced''')
 GO
 
 /*********************************************************************************************
@@ -60,7 +60,7 @@ License:
 	of Who is Active?, in whole or in part, is prohibited without the author's express 
 	written consent.
 *********************************************************************************************/
-ALTER PROC dbo.##sp_WhoIsActive
+ALTER PROC dba.sp_WhoIsActive
 (
 --~
 	--Filters--Both inclusive and exclusive
