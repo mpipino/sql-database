@@ -70,7 +70,7 @@ SELECT TOP 10
 	SizeInBytes
 FROM
 	core
---where [Statement] like '%insert%'
+ --where [Statement] like '%sp_search%'
 ORDER BY	
 	GrossCost DESC,
 	UseCounts desc
@@ -126,7 +126,7 @@ from
    sys.dm_exec_cached_plans cp
       CROSS APPLY sys.dm_exec_sql_text(cp.plan_handle) st
 where 
-   OBJECT_NAME(st.objectid, st.dbid) = 'sp_Phoenix_AutoShip_Projection_widget' and 
+   OBJECT_NAME(st.objectid, st.dbid) = 'sp_search_criteria_results_pagination%' and 
    st.dbid = DB_ID()
 
 ----------------------------------------------------------------------------------------
