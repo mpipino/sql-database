@@ -1,9 +1,16 @@
+EXEC ##sp_BlitzQueryStore @DatabaseName = 'BodyLogic_Commissions', @Top = 1
+, @StoredProcName = 'Bl_Distributor_Discount_Forced_PeriodsQualified_Sp'
+
+
+
 /*
 
 Ways to run this thing
 
 --Debug
 EXEC ##sp_BlitzQueryStore @DatabaseName = 'BodyLogic_Commissions', @Debug = 1
+
+
 
 --Get the top 1
 EXEC ##sp_BlitzQueryStore @DatabaseName = 'StackOverflow', @Top = 1, @Debug = 1
@@ -28,6 +35,8 @@ EXEC ##sp_BlitzQueryStore @DatabaseName = 'StackOverflow', @Top = 1, @StoredProc
 
 --Look for a stored procedure name that does (at least On My Computer®)
 EXEC ##sp_BlitzQueryStore @DatabaseName = 'StackOverflow', @Top = 1, @StoredProcName = 'UserReportExtended'
+
+
 
 --Look for failed queries
 EXEC ##sp_BlitzQueryStore @DatabaseName = 'StackOverflow', @Top = 1, @Failed = 1
