@@ -19,11 +19,11 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="1 Creacion de logins y usuario.sql">
+        <FileNode Name="1 Creacion de logins y usuarios y permisos.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:impactglobal.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>impactglobal.database.xirect.com</AssociatedConnSrvName>
           <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
-          <FullPath>1 Creacion de logins y usuario.sql</FullPath>
+          <FullPath>1 Creacion de logins y usuarios y permisos.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
