@@ -4,7 +4,9 @@ WAITFOR DELAY '00:02'
 go 50
 
 
+CREATE SCHEMA DBA
 
+EXEC DBA.sp_WhoIsActive
 EXEC ##sp_WhoIsActive
     @filter = '',
     @filter_type = 'session',
