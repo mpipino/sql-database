@@ -36,7 +36,7 @@ order by GBTabla desc
  
 SET NOCOUNT ON
 SELECT 'ALTER INDEX '+ '[' + i.[name] + ']' + ' ON ' + '[' + s.[name] + ']' + '.' + '[' + o.[name] + ']' 
-+ ' REBUILD WITH (DATA_COMPRESSION=PAGE);'
++ ' REBUILD WITH (DATA_COMPRESSION=PAGE); --26 gb 42 minutos y cancele'
 	, ps.[reserved_page_count],*
 FROM sys.objects AS o WITH (NOLOCK)
 INNER JOIN sys.indexes AS i WITH (NOLOCK)
@@ -975,5 +975,6 @@ ON p.object_id = o.object_id
 JOIN sys.indexes i 
 ON p.object_id = i.object_id
 AND i.index_id = p.index_id
-WHERE p.data_compression > 0 --and i.name='Commissions_Distributor_Rank_Lines_Temp'
-AND SCHEMA_NAME(o.schema_id) <> 'SYS' 
+--WHERE p.data_compression > 0 and i.name='tbl_Distributor_Commissions_Temp_v2'
+AND SCHEMA_NAME(o.schema_id) <> 'SYS'
+AND p.data_compression_desc='PAGE'

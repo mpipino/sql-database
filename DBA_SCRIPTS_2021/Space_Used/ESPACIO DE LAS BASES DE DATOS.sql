@@ -3,7 +3,7 @@
 -- Database data space used in MB
 SELECT TOP 1 storage_in_megabytes AS DatabaseDataSpaceUsedInMB
 FROM sys.resource_stats
-WHERE database_name = 'BodyLogic_Live'
+WHERE database_name = 'logging'
 ORDER BY end_time DESC
 
 
@@ -18,4 +18,4 @@ HAVING type_desc = 'ROWS'
 
 -- Connect to database
 -- Database data max size in bytes
-SELECT DATABASEPROPERTYEX('db1', 'MaxSizeInBytes') AS DatabaseDataMaxSizeInBytes
+SELECT DATABASEPROPERTYEX('Logging', 'MaxSizeInBytes') AS DatabaseDataMaxSizeInBytes

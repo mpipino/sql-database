@@ -7,8 +7,8 @@ go 50
 CREATE SCHEMA DBA
 
 EXEC DBA.sp_WhoIsActive
-EXEC ##sp_WhoIsActive
-    @filter = '',
+--EXEC ##sp_WhoIsActive
+    --@filter = '',
     @filter_type = 'session',
     @not_filter = '',
     @not_filter_type = 'session',
@@ -32,8 +32,8 @@ EXEC ##sp_WhoIsActive
     @schema = NULL,
     @help = 0 
 	--,@destination_table = 'dba.sp_WhoIsActive_historico'
-waitfor delay '00:00:5'
-go 100
+waitfor delay '00:00:2'
+go 500
 */
 
 SET QUOTED_IDENTIFIER ON;

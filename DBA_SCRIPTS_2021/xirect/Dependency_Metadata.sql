@@ -18,18 +18,19 @@ FROM   sys.sql_expression_dependencies ed
          ON ed.referenced_id = o2.object_id
 
 WHERE	--o1.type in ('P','TR','V', 'TF') AND 
-		o2.name='Commissions_Distributor_Temp'
+		o2.name='tbl_distributor_commissions_v2'
 ORDER BY ReferencingObjectType, ReferencingObject
 
 
 /*
 -- Find all stored procedures where a column is being used/referenced
 */
-DECLARE @SchemaName sysname = N'dba';
+DECLARE @SchemaName sysname = N'dbo';
 
-DECLARE @TableName sysname = N'%%';
+DECLARE @TableName sysname = N'%Tbl_Distributor_Commissions_V2%';
 
-DECLARE @ColumnName sysname = N'%%';
+DECLARE @ColumnName1 sysname = N'%CreateDate%';
+DECLARE @ColumnName2 sysname = N'%joinDate%';
  
 
 SELECT QUOTENAME(refing.referencing_schema_name) +
@@ -48,11 +49,13 @@ WHERE EXISTS(SELECT * FROM sys.objects
 
              WHERE refing.referencing_id = object_id and type ='P')
 
-  AND refed.referenced_schema_name = @SchemaName
+ -- AND refed.referenced_schema_name = @SchemaName
 
   AND refed.referenced_entity_name = @TableName
 
-  AND refed.referenced_minor_name  = @ColumnName
+  --AND refed.referenced_minor_name  = @ColumnName1
+
+  AND (refed.referenced_minor_name  = @ColumnName1 or refed.referenced_minor_name  = @ColumnName2)
 
 ORDER BY SprocName;
 

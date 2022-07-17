@@ -1,7 +1,11 @@
-EXEC ##sp_BlitzQueryStore @DatabaseName = 'BodyLogic_Commissions', @Top = 1
-, @StoredProcName = 'Bl_Distributor_Discount_Forced_PeriodsQualified_Sp'
+--EXEC ##sp_BlitzQueryStore @DatabaseName = 'BodyLogic_Commissions', @Top = 1
+--, @StoredProcName = 'Bl_Distributor_Discount_Forced_PeriodsQualified_Sp'
 
 
+--EXEC ##sp_BlitzQueryStore @DatabaseName = 'asea_prod',  @Top = 5
+
+EXEC ##sp_BlitzQueryStore @DatabaseName = 'asea_prod', @Top = 1
+, @StoredProcName = 'Sp_Search_Criteria_Results_Pagination'
 
 /*
 

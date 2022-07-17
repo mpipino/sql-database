@@ -9,12 +9,12 @@ spinloop = The task in the session is waiting for a spinlock to become free.
 suspended = The session is waiting for an event, such as I/O, to complete.
 */
 
---EXEC dba.sp_WhoIsActive	 
---    @format_output = 0
---    ,@destination_table = 'dba.sp_WhoIsActive_historico'
---	,@get_locks=1, @get_plans=1, @get_task_info=2, @get_additional_info=1, @get_outer_command=1
---	, @get_transaction_info=1	
---	,@sort_order = '[start_time] ASC'
+EXEC dba.sp_WhoIsActive	 
+    @format_output = 0
+    --,@destination_table = 'dba.sp_WhoIsActive_historico'
+	,@get_locks=1, @get_plans=1, @get_task_info=2, @get_additional_info=1, @get_outer_command=1
+	, @get_transaction_info=1	
+	,@sort_order = '[start_time] ASC'
 --waitfor delay '00:00:05'
 --go 720
 
@@ -56,7 +56,7 @@ EXEC dba.sp_WhoIsActive
     @return_schema = 0,
     @schema = NULL,
     @help = 0 
-	,@destination_table = 'dba.sp_WhoIsActive_historico'
+	--,@destination_table = 'dba.sp_WhoIsActive_historico'
 waitfor delay '00:00:5'
 go 5000
 go 200

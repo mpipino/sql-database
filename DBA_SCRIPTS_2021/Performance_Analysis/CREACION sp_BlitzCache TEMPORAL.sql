@@ -2,6 +2,8 @@
 EXEC ##sp_BlitzCache
 
 EXEC ##sp_BlitzCache @StoredProcName = 'sp_CalculateVolume'
+EXEC dba.sp_BlitzCache @StoredProcName = 'sp_GetTree_DS_Golds_XSS_hourly'
+
 EXEC ##sp_BlitzCache @StoredProcName = 'SP_RPT_SALESPRODUCTSUMMARYBYDAY'
 EXEC ##sp_BlitzCache @StoredProcName = 'SP_search_criteria_results_pagination'
 
