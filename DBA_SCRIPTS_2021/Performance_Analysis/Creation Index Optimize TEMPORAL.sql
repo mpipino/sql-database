@@ -15,11 +15,11 @@ EXECUTE dba.##IndexOptimize
 
 --DROP PROC  [##IndexOptimize]
 EXECUTE [dbo].[##IndexOptimize] --requiere crear antes el command execute
-						 @Databases = 'bodylogic_live', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
+						 @Databases = 'asea_prod', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
 						 --,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 20, @FragmentationLevel2 = 80
 						 ,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 30, @FragmentationLevel2 = 80
 						 , @MaxDOP = 4				
-						 ,@MaxNumberOfPages=15000
+						 ,@MaxNumberOfPages=50000
 						 ,@MinNumberOfPages=1000
 						 ,@Execute='y'
 						 --,@LogToTable='n'
