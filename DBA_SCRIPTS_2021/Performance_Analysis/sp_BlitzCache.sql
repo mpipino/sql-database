@@ -1,6 +1,8 @@
 sp_BlitzCache
 
 [dba].sp_BlitzCache @StoredProcName = 'sp_CalculateVolume'
+
+
 You have 67745 plans in your cache, and 99.00% are duplicates with more than 5 entries, meaning similar queries are generating the same plan repeatedly. Forced Parameterization may fix the issue. To find troublemakers, use: EXEC sp_BlitzCache @SortOrder = 'query hash'; 
 
 
@@ -34,4 +36,6 @@ max_spills. Maximum number of pages that this plan has ever spilled during a sin
 
 
 
+[dba].sp_BlitzCache @StoredProcName = 'Spr_Getorderdetail_Childitems'
 
+  EXEC sp_addrolemember 'db_owner', 'gabalde';

@@ -39,6 +39,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="dlo6zra872.database.windows.net,1433:gabalde">
+          <Created>2022-08-30T20:52:03.988322-03:00</Created>
+          <Type>SQL</Type>
+          <Server>dlo6zra872.database.windows.net,1433</Server>
+          <UserName>gabalde</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="xcomm1.database.xirect.com:gabalde">
           <Created>2022-02-12T19:55:46.3885157-03:00</Created>
           <Type>SQL</Type>
@@ -74,9 +86,9 @@
           <FullPath>CHECK SQL ERROR LOG y SQL AGENT ERROR LOGS.sql</FullPath>
         </FileNode>
         <FileNode Name="Log_WebService_CLEAN UP.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
           <FullPath>Log_WebService_CLEAN UP.sql</FullPath>
         </FileNode>
         <FileNode Name="LogicApps_ALERTS.sql">

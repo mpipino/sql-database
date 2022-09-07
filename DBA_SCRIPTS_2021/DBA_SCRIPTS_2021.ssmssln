@@ -47,12 +47,13 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EXPORTACION", "EXPORTACION\
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "NUEVO CLIENTE", "NUEVO CLIENTE\NUEVO CLIENTE.ssmssqlproj", "{01D3607E-5CC8-4573-9DE7-34D3F8F2C1D3}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Milennial", "Milennial\Milennial.ssmssqlproj", "{4799DFEA-66A9-4A91-8A19-B78BDF339FDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CCFEBBD0-E4F6-406F-B57C-83503B35213D}.Default|Default.ActiveCfg = Default
 		{0B2B617F-9600-4AB8-8465-D6F0FD4052F2}.Default|Default.ActiveCfg = Default
 		{BF8FDA0D-B057-4111-AD67-0A71120B644D}.Default|Default.ActiveCfg = Default
 		{79A25C7D-F47F-406A-AB52-B4354132C3DB}.Default|Default.ActiveCfg = Default
@@ -74,6 +75,8 @@ Global
 		{1098171D-2A4C-4E41-92E0-B5541D34D58B}.Default|Default.ActiveCfg = Default
 		{9DC13F3D-C54F-411D-88D7-AC1BB7C28C9C}.Default|Default.ActiveCfg = Default
 		{01D3607E-5CC8-4573-9DE7-34D3F8F2C1D3}.Default|Default.ActiveCfg = Default
+		{582627FF-DC1D-4520-985A-57A2F49E95AA}.Default|Default.ActiveCfg = Default
+		{4799DFEA-66A9-4A91-8A19-B78BDF339FDB}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

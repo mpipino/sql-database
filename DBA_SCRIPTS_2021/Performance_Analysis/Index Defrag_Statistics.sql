@@ -1,12 +1,12 @@
 EXECUTE [dba].[IndexOptimize]
-						 @Databases = 'Express_Test', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
+						 @Databases = 'asea_prod', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
 						 ,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 20, @FragmentationLevel2 = 40
 						 --,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 40, @FragmentationLevel2 = 80
 						 , @MaxDOP = 4				
-						 --,@MaxNumberOfPages=100000
+						 ,@MaxNumberOfPages=25000
 						 --,@MinNumberOfPages=10000
 						 ,@Execute='y'
-						 ,@LogToTable='y'
+						 ,@LogToTable='n'
 						 --Commissions_Distributor_Temp
 						 --,@Indexes = 'BodyLogic_Live.dbo.Commissions_Distributor_Temp'
 						 --,@Indexes = 'Asea_Prod.dbo.tbl_distributor_commissions_v2.PK__tbl_dist__3214EC275D93B669'

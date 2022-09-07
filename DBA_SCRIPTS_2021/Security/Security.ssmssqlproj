@@ -39,6 +39,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="envisionarylife.database.xirect.com:gabalde@xirectds.com">
+          <Created>2022-07-19T12:16:15.9081862-03:00</Created>
+          <Type>SQL</Type>
+          <Server>envisionarylife.database.xirect.com</Server>
+          <UserName>gabalde@xirectds.com</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="envisionarylife.database.xirect.com:xirect">
           <Created>2022-02-10T17:36:56.89036-03:00</Created>
           <Type>SQL</Type>
@@ -128,8 +140,8 @@
           <FullPath>1 Deivis CREATE LOGIN and USER.sql</FullPath>
         </FileNode>
         <FileNode Name="2 CREATE ROLE ReadExecute.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:modballs.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>modballs.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:envisionarylife.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>envisionarylife.database.xirect.com</AssociatedConnSrvName>
           <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>2 CREATE ROLE ReadExecute.sql</FullPath>
         </FileNode>

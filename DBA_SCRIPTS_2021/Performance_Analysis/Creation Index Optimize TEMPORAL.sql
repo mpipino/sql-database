@@ -15,14 +15,14 @@ EXECUTE dba.##IndexOptimize
 
 --DROP PROC  [##IndexOptimize]
 EXECUTE [dbo].[##IndexOptimize] --requiere crear antes el command execute
-						 @Databases = 'BodyLogic_Live', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
-						 --,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 10, @FragmentationLevel2 = 40
-						 ,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 40, @FragmentationLevel2 = 80
+						 @Databases = 'bodylogic_live', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
+						 --,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 20, @FragmentationLevel2 = 80
+						 ,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 30, @FragmentationLevel2 = 80
 						 , @MaxDOP = 4				
-						 --,@MaxNumberOfPages=5000
-						 ,@MinNumberOfPages=5000
-						 ,@Execute='n'
-						 --,@LogToTable='y'
+						 ,@MaxNumberOfPages=15000
+						 ,@MinNumberOfPages=1000
+						 ,@Execute='y'
+						 --,@LogToTable='n'
 						 --Commissions_Distributor_Temp
 						 --,@Indexes = 'asea_Stage.dbo.Commissions_Distributor_Temp'
 						 --,@Indexes = 'Asea_Prod.dbo.tbl_distributor_commissions_v2PK__tbl_dist__3214EC275D93B669'
