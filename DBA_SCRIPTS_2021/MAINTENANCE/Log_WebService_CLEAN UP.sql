@@ -6,7 +6,7 @@ where CreatedDate < DATEADD(day, -30, GETDATE())
 DELETE TOP (5000) FROM Log_WebService
 where CreatedDate < DATEADD(day, -30, GETDATE())
 Select 'Proximo'
-WAITFOR DELAY '00:00:50'
+WAITFOR DELAY '00:00:1'
 go 100
 
 --DROP PROC  [##IndexOptimize]

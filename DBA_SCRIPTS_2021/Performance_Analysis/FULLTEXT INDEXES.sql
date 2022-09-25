@@ -1,6 +1,6 @@
 --PARA ASEA ALTER FULLTEXT CATALOG ftDistributor REORGANIZE
 
-DROP TABLE #fulltextFragmentationDetails
+--DROP TABLE #fulltextFragmentationDetails
 -- Compute fragmentation information for all full-text indexes on the database
 SELECT c.fulltext_catalog_id, c.name AS fulltext_catalog_name, i.change_tracking_state,
     i.object_id, OBJECT_SCHEMA_NAME(i.object_id) + '.' + OBJECT_NAME(i.object_id) AS object_name,
