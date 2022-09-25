@@ -38,9 +38,9 @@
           <FullPath>Blocking.sql</FullPath>
         </FileNode>
         <FileNode Name="Locks.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:dlo6zra872.database.windows.net,1433:False:gabalde</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>dlo6zra872.database.windows.net,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName>gabalde</AssociatedConnUserName>
           <FullPath>Locks.sql</FullPath>
         </FileNode>
         <FileNode Name="queries waiting in the memory queue.sql">

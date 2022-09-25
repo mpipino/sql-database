@@ -6,38 +6,40 @@ EXECUTE dba.##IndexOptimize
 @FragmentationLow = NULL,
 @FragmentationMedium = NULL,
 @FragmentationHigh = NULL,
-@UpdateStatistics = 'ALL',
---@MinNumberOfPages=10000,
+@UpdateStatistics = 'ALL'
+--,@MinNumberOfPages=10000,
 --@OnlyModifiedStatistics = 'Y',
-@StatisticsModificationLevel=50
+--@StatisticsModificationLevel=50
+--,@Indexes = 'Asea_Prod.dbo.tbl_Orders_Header'
 ,@Execute='y'
 --,@LogToTable='y'
 
+
 --DROP PROC  [##IndexOptimize]
-EXECUTE [dbo].[##IndexOptimize] --requiere crear antes el command execute
+EXECUTE dba.[IndexOptimize] --requiere crear antes el command execute
 						 @Databases = 'asea_prod', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
-						 --,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 20, @FragmentationLevel2 = 80
-						 ,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 30, @FragmentationLevel2 = 80
+						 ,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 5, @FragmentationLevel2 = 40
+						 --,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 10, @FragmentationLevel2 = 40
 						 , @MaxDOP = 4				
-						 ,@MaxNumberOfPages=50000
-						 ,@MinNumberOfPages=1000
+						 --,@MaxNumberOfPages=300000
+						 --,@MinNumberOfPages=10000
 						 ,@Execute='y'
-						 --,@LogToTable='n'
+						 --,@LogToTable='y'
 						 --Commissions_Distributor_Temp
 						 --,@Indexes = 'asea_Stage.dbo.Commissions_Distributor_Temp'
-						 --,@Indexes = 'Asea_Prod.dbo.tbl_distributor_commissions_v2PK__tbl_dist__3214EC275D93B669'
+						 --,@Indexes = 'Asea_Prod.dbo.tbl_Orders_Header'
 
 */
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[##IndexOptimize]') AND type in (N'P', N'PC'))
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'dba.[##IndexOptimize]') AND type in (N'P', N'PC'))
 BEGIN
-EXEC dbo.sp_executesql @statement = N'CREATE PROCEDURE [dbo].##IndexOptimize AS'
+EXEC dbo.sp_executesql @statement = N'CREATE PROCEDURE dba.##IndexOptimize AS'
 END
 GO
-ALTER PROCEDURE [dbo].[##IndexOptimize]
+ALTER PROCEDURE dba.[##IndexOptimize]
 
 @Databases nvarchar(max) = NULL,
 @FragmentationLow nvarchar(max) = NULL,

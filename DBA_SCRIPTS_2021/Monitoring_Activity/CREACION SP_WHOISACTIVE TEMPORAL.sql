@@ -7,7 +7,7 @@ go 50
 CREATE SCHEMA DBA
 
 EXEC DBA.sp_WhoIsActive
---EXEC ##sp_WhoIsActive
+--EXEC #sp_WhoIsActive
     --@filter = '',
     @filter_type = 'session',
     @not_filter = '',
@@ -20,7 +20,7 @@ EXEC DBA.sp_WhoIsActive
     @get_outer_command = 1,
     @get_transaction_info = 1,
     @get_task_info = 2,
-    @get_locks = 1,
+    --@get_locks = 1,
     @get_avg_time = 1,
     @get_additional_info = 1,
     @find_block_leaders = 1,
@@ -62,7 +62,7 @@ License:
 	of Who is Active?, in whole or in part, is prohibited without the author's express 
 	written consent.
 *********************************************************************************************/
-ALTER PROC dba.sp_WhoIsActive
+create PROC #sp_WhoIsActive
 (
 --~
 	--Filters--Both inclusive and exclusive

@@ -1,7 +1,7 @@
 sp_BlitzCache
 
 [dba].sp_BlitzCache @StoredProcName = 'sp_CalculateVolume'
-
+[dba].sp_BlitzCache @StoredProcName = 'sp_generate_periodSnapshot'
 
 You have 67745 plans in your cache, and 99.00% are duplicates with more than 5 entries, meaning similar queries are generating the same plan repeatedly. Forced Parameterization may fix the issue. To find troublemakers, use: EXEC sp_BlitzCache @SortOrder = 'query hash'; 
 

@@ -83,6 +83,7 @@ WHERE atr.transaction_type != 2
       AND sess.session_id != @@spid
 ORDER BY start_time ASC;
 
+kill 327
 -----------------------------------------------------------------------------------------------------------
 
 -- Obtaining the space consumed by internal objects in all currently running tasks in each session

@@ -6,11 +6,11 @@ where CreatedDate < DATEADD(day, -30, GETDATE())
 DELETE TOP (5000) FROM Log_WebService
 where CreatedDate < DATEADD(day, -30, GETDATE())
 Select 'Proximo'
-WAITFOR DELAY '00:00:30'
+WAITFOR DELAY '00:00:50'
 go 100
 
 --DROP PROC  [##IndexOptimize]
-EXECUTE [dbo].[##IndexOptimize] --requiere crear antes el command execute
+EXECUTE dba.[##IndexOptimize] --requiere crear antes el command execute
 						 @Databases = 'BodyLogic_Live', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
 						 --,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 10, @FragmentationLevel2 = 40
 						 ,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 1, @FragmentationLevel2 = 80
