@@ -1,5 +1,9 @@
 /*
 
+--FULL TEXT SEARCH!!!!!!!!
+ALTER FULLTEXT CATALOG ftDistributor REORGANIZE
+
+
 --Actualizacion estadisticas.
 EXECUTE dba.##IndexOptimize
 @Databases = 'user_databases,-dba',
