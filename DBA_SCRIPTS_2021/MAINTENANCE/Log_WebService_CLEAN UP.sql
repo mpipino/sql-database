@@ -1,7 +1,7 @@
 --hacerlo en BodyLogic.
 Select count(*) FROM Log_WebService with (nolock)
 where CreatedDate < DATEADD(day, -30, GETDATE()) 
-
+-- ASEA: 5083774
 
 DELETE TOP (5000) FROM Log_WebService
 where CreatedDate < DATEADD(day, -30, GETDATE())
