@@ -1,12 +1,12 @@
 --hacerlo en BodyLogic.
 Select count(*) FROM Log_WebService with (nolock)
 where CreatedDate < DATEADD(day, -30, GETDATE()) 
--- ASEA: 5083774
+-- ASEA: 5083774 4773786
 
 DELETE TOP (5000) FROM Log_WebService
 where CreatedDate < DATEADD(day, -30, GETDATE())
 Select 'Proximo'
-WAITFOR DELAY '00:00:1'
+WAITFOR DELAY '00:00:10'
 go 100
 
 --DROP PROC  [##IndexOptimize]

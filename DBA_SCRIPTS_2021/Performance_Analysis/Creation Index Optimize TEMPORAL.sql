@@ -5,7 +5,7 @@ ALTER FULLTEXT CATALOG ftDistributor REORGANIZE
 
 
 --Actualizacion estadisticas.
-EXECUTE dba.##IndexOptimize
+EXECUTE dba.IndexOptimize
 @Databases = 'user_databases,-dba',
 @FragmentationLow = NULL,
 @FragmentationMedium = NULL,
