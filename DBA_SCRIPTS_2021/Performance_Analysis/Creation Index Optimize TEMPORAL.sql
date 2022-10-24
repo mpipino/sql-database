@@ -11,7 +11,7 @@ EXECUTE dba.IndexOptimize
 @FragmentationMedium = NULL,
 @FragmentationHigh = NULL,
 @UpdateStatistics = 'ALL'
---,@MinNumberOfPages=10000,
+--,@MinNumberOfPages=1000,
 --@OnlyModifiedStatistics = 'Y',
 --@StatisticsModificationLevel=50
 --,@Indexes = 'Asea_Prod.dbo.tbl_Orders_Header'
@@ -21,7 +21,7 @@ EXECUTE dba.IndexOptimize
 
 --DROP PROC  [##IndexOptimize]
 EXECUTE dba.[IndexOptimize] --requiere crear antes el command execute
-						 @Databases = 'asea_prod', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
+						 @Databases = 'BodyLogic_Live', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
 						 ,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 5, @FragmentationLevel2 = 40
 						 --,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 10, @FragmentationLevel2 = 40
 						 , @MaxDOP = 4				
