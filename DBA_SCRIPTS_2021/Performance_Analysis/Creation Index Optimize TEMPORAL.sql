@@ -20,10 +20,10 @@ EXECUTE dba.IndexOptimize
 
 
 --DROP PROC  [##IndexOptimize]
-EXECUTE dba.[IndexOptimize] --requiere crear antes el command execute
-						 @Databases = 'BodyLogic_Live', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
-						 ,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 5, @FragmentationLevel2 = 40
-						 --,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 10, @FragmentationLevel2 = 40
+EXECUTE dba.[##IndexOptimize] --requiere crear antes el command execute
+						 @Databases = 'Tibena_Live', @FragmentationLow = NULL, @FragmentationMedium = 'INDEX_REORGANIZE'
+						 --,@FragmentationHigh = 'INDEX_REBUILD_ONLINE', @FragmentationLevel1 = 5, @FragmentationLevel2 = 40
+						 ,@FragmentationHigh = 'INDEX_REORGANIZE', @FragmentationLevel1 = 10, @FragmentationLevel2 = 40
 						 , @MaxDOP = 4				
 						 --,@MaxNumberOfPages=300000
 						 --,@MinNumberOfPages=10000

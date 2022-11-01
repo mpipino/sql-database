@@ -98,8 +98,8 @@
           <FullPath>CHECK SQL ERROR LOG y SQL AGENT ERROR LOGS.sql</FullPath>
         </FileNode>
         <FileNode Name="Log_WebService_CLEAN UP.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:modballs.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>modballs.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
           <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
           <FullPath>Log_WebService_CLEAN UP.sql</FullPath>
         </FileNode>

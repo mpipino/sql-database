@@ -39,6 +39,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="tibenaglobal.database.xirect.com:xirect">
+          <Created>2022-10-27T19:42:42.1118703-03:00</Created>
+          <Type>SQL</Type>
+          <Server>tibenaglobal.database.xirect.com</Server>
+          <UserName>xirect</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="xcomm1.database.xirect.com:gabalde">
           <Created>2022-02-12T20:35:53.5400914-03:00</Created>
           <Type>SQL</Type>
@@ -164,9 +176,9 @@
           <FullPath>CREACION sp_BlitzFirst TEMPORAL.sql</FullPath>
         </FileNode>
         <FileNode Name="Creation Index Optimize TEMPORAL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:bodylogic.database.xirect.com:False:gabalde@xirectds.com</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>bodylogic.database.xirect.com</AssociatedConnSrvName>
-          <AssociatedConnUserName>gabalde@xirectds.com</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tibenaglobal.database.xirect.com:False:xirect</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tibenaglobal.database.xirect.com</AssociatedConnSrvName>
+          <AssociatedConnUserName>xirect</AssociatedConnUserName>
           <FullPath>Creation Index Optimize TEMPORAL.sql</FullPath>
         </FileNode>
         <FileNode Name="DATABASE AND FILE USAGE.sql">
