@@ -4,6 +4,12 @@
 EXEC ##sp_BlitzQueryStore @DatabaseName = 'asea_prod', @Top = 1
 , @StoredProcName = 'Bl_Commissions_Get_VolumeAndSalesDownlineInformation_ByCommissionsPeriodId_Sp'
 
+
+--[Order_PendingToday_GetByPaymenTypeAndMerchanProcessorId_Sp]
+EXEC ##sp_BlitzQueryStore @DatabaseName = 'BodyLogic_Live', @Top = 1
+, @StoredProcName = 'Order_PendingToday_GetByPaymenTypeAndMerchanProcessorId_Sp'
+
+
 --EXEC ##sp_BlitzQueryStore @DatabaseName = 'asea_prod',  @Top = 5
 
 EXEC ##sp_BlitzQueryStore @DatabaseName = 'asea_prod', @Top = 1
