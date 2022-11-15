@@ -1,141 +1,141 @@
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [dbupImpactGlobalLive]    Script Date: 5/28/2022 11:59:26 AM ******/
-CREATE LOGIN [dbupImpactGlobalLive] WITH PASSWORD=N'xxx'
+/****** Object:  Login dbupMillenialstage    Script Date: 5/28/2022 11:59:26 AM ******/
+CREATE LOGIN dbupMillenialstage WITH PASSWORD=N'rBgqFnNqs6t5qv'
 GO
 
---[dbupImpactGlobalLive] DISABLE
-GO
-
-/* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [ImpactGlobalLive]    Script Date: 5/28/2022 11:59:26 AM ******/
-CREATE LOGIN [ImpactGlobalLive] WITH PASSWORD=N'xxx'
-GO
-
---[ImpactGlobalLive] DISABLE
+--dbupMillenialstage DISABLE
 GO
 
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [xapiImpactGlobalLive]    Script Date: 5/28/2022 11:59:26 AM ******/
-CREATE LOGIN [xapiImpactGlobalLive] WITH PASSWORD=N'xxx'
+/****** Object:  Login Millenialstage    Script Date: 5/28/2022 11:59:26 AM ******/
+CREATE LOGIN Millenialstage WITH PASSWORD=N'v8iDqeHrqE5Sht'
 GO
 
---[xapiImpactGlobalLive] DISABLE
-GO
-
-/* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [xautoshipImpactGlobalLive]    Script Date: 5/28/2022 11:59:26 AM ******/
-CREATE LOGIN [xautoshipImpactGlobalLive] WITH PASSWORD=N'xx'
-GO
-
---[xautoshipImpactGlobalLive] DISABLE
+--Millenialstage DISABLE
 GO
 
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [xbackofficeImpactGlobalLive]    Script Date: 5/28/2022 11:59:26 AM ******/
-CREATE LOGIN [xbackofficeImpactGlobalLive] WITH PASSWORD=N'xxx'
+/****** Object:  Login xapiMillenialstage    Script Date: 5/28/2022 11:59:26 AM ******/
+CREATE LOGIN xapiMillenialstage WITH PASSWORD=N'wjczMps2Qdc5Qd'
 GO
 
---[xbackofficeImpactGlobalLive] DISABLE
-GO
-
-/* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [xcorporateImpactGlobalLive]    Script Date: 5/28/2022 11:59:26 AM ******/
-CREATE LOGIN [xcorporateImpactGlobalLive] WITH PASSWORD=N'xx'
-GO
-
---[xcorporateImpactGlobalLive] DISABLE
+--xapiMillenialstage DISABLE
 GO
 
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [xenrollImpactGlobalLive]    Script Date: 5/28/2022 11:59:26 AM ******/
-CREATE LOGIN [xenrollImpactGlobalLive] WITH PASSWORD=N'xx'
+/****** Object:  Login xautoshipMillenialstage    Script Date: 5/28/2022 11:59:26 AM ******/
+CREATE LOGIN xautoshipMillenialstage WITH PASSWORD=N'gv3AmAfgm9ErN4'
 GO
 
---[xenrollImpactGlobalLive] DISABLE
-GO
-
-/* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [xorderImpactGlobalLive]    Script Date: 5/28/2022 11:59:26 AM ******/
-CREATE LOGIN [xorderImpactGlobalLive] WITH PASSWORD=N'xxxx'
-GO
-
---[xorderImpactGlobalLive] DISABLE
+--xautoshipMillenialstage DISABLE
 GO
 
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [xruntasksImpactGlobalLive]    Script Date: 5/28/2022 11:59:26 AM ******/
-CREATE LOGIN [xruntasksImpactGlobalLive] WITH PASSWORD=N'xxxx'
+/****** Object:  Login xbackofficeMillenialstage    Script Date: 5/28/2022 11:59:26 AM ******/
+CREATE LOGIN xbackofficeMillenialstage WITH PASSWORD=N'spCYa3gchDbLXB'
 GO
 
---[xruntasksImpactGlobalLive] DISABLE
-GO
-
-/* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [xtranslationsImpactGlobalLive]    Script Date: 5/28/2022 11:59:26 AM ******/
-CREATE LOGIN [xtranslationsImpactGlobalLive] WITH PASSWORD=N'xxx'
-GO
-
---[xtranslationsImpactGlobalLive] DISABLE
+--xbackofficeMillenialstage DISABLE
 GO
 
 /* For security reasons the login is created disabled and with a random password. */
-/****** Object:  Login [xwebservicescommImpactGlobalLive]    Script Date: 5/28/2022 11:59:26 AM ******/
-CREATE LOGIN [xwebservicescommImpactGlobalLive] WITH PASSWORD=N'xxx'
+/****** Object:  Login xcorporateMillenialstage    Script Date: 5/28/2022 11:59:26 AM ******/
+CREATE LOGIN xcorporateMillenialstage WITH PASSWORD=N'pQ5wWidWEoqkug'
 GO
 
---[xwebservicescommImpactGlobalLive] DISABLE
+--xcorporateMillenialstage DISABLE
+GO
+
+/* For security reasons the login is created disabled and with a random password. */
+/****** Object:  Login xenrollMillenialstage    Script Date: 5/28/2022 11:59:26 AM ******/
+CREATE LOGIN xenrollMillenialstage WITH PASSWORD=N'RXUjfcSk3bz323'
+GO
+
+--xenrollMillenialstage DISABLE
+GO
+
+/* For security reasons the login is created disabled and with a random password. */
+/****** Object:  Login xorderMillenialstage    Script Date: 5/28/2022 11:59:26 AM ******/
+CREATE LOGIN xorderMillenialstage WITH PASSWORD=N'G268apjEpWnWc3'
+GO
+
+--xorderMillenialstage DISABLE
+GO
+
+/* For security reasons the login is created disabled and with a random password. */
+/****** Object:  Login xruntasksMillenialstage    Script Date: 5/28/2022 11:59:26 AM ******/
+CREATE LOGIN xruntasksMillenialstage WITH PASSWORD=N'a5ZU2GZhiiVfYG'
+GO
+
+--xruntasksMillenialstage DISABLE
+GO
+
+/* For security reasons the login is created disabled and with a random password. */
+/****** Object:  Login xtranslationsMillenialstage    Script Date: 5/28/2022 11:59:26 AM ******/
+CREATE LOGIN xtranslationsMillenialstage WITH PASSWORD=N'f2ZGzPyH2kmoYc'
+GO
+
+--xtranslationsMillenialstage DISABLE
+GO
+
+/* For security reasons the login is created disabled and with a random password. */
+/****** Object:  Login xwebservicescommMillenialstage    Script Date: 5/28/2022 11:59:26 AM ******/
+CREATE LOGIN xwebservicescommMillenialstage WITH PASSWORD=N'4HHe8gfX7i2T3q'
+GO
+
+--xwebservicescommMillenialstage DISABLE
 GO
 
 
 
 ----------------EN LA BASE:
-/****** Object:  User [dbupImpactGlobalLive]    Script Date: 5/28/2022 12:22:22 PM ******/
-CREATE USER [dbupImpactGlobalLive] FOR LOGIN [dbupImpactGlobalLive] WITH DEFAULT_SCHEMA=[dbo]
+/****** Object:  User dbupMillenialstage    Script Date: 5/28/2022 12:22:22 PM ******/
+CREATE USER dbupMillenialstage FOR LOGIN dbupMillenialstage WITH DEFAULT_SCHEMA=dbo
 GO
-ALTER ROLE [db_owner] ADD MEMBER [dbupImpactGlobalLive]
+ALTER ROLE db_owner ADD MEMBER dbupMillenialstage
 
-/****** Object:  User [ImpactGlobalLive]    Script Date: 5/28/2022 12:22:22 PM ******/
-CREATE USER [ImpactGlobalLive] FOR LOGIN [ImpactGlobalLive] WITH DEFAULT_SCHEMA=[dbo]
+/****** Object:  User Millenialstage    Script Date: 5/28/2022 12:22:22 PM ******/
+CREATE USER Millenialstage FOR LOGIN Millenialstage WITH DEFAULT_SCHEMA=dbo
 GO
-ALTER ROLE [db_owner] ADD MEMBER [ImpactGlobalLive]
+ALTER ROLE db_owner ADD MEMBER Millenialstage
 
-/****** Object:  User [xbackofficeImpactGlobalLive]    Script Date: 5/28/2022 12:22:22 PM ******/
-CREATE USER [xbackofficeImpactGlobalLive] FOR LOGIN [xbackofficeImpactGlobalLive] WITH DEFAULT_SCHEMA=[dbo]
+/****** Object:  User xbackofficeMillenialstage    Script Date: 5/28/2022 12:22:22 PM ******/
+CREATE USER xbackofficeMillenialstage FOR LOGIN xbackofficeMillenialstage WITH DEFAULT_SCHEMA=dbo
 GO
-ALTER ROLE [db_owner] ADD MEMBER [xbackofficeImpactGlobalLive]
+ALTER ROLE db_owner ADD MEMBER xbackofficeMillenialstage
 
-/****** Object:  User [xtranslationsImpactGlobalLive]    Script Date: 5/28/2022 12:22:22 PM ******/
-CREATE USER [xtranslationsImpactGlobalLive] FOR LOGIN [xtranslationsImpactGlobalLive] WITH DEFAULT_SCHEMA=[dbo]
+/****** Object:  User xtranslationsMillenialstage    Script Date: 5/28/2022 12:22:22 PM ******/
+CREATE USER xtranslationsMillenialstage FOR LOGIN xtranslationsMillenialstage WITH DEFAULT_SCHEMA=dbo
 GO
-ALTER ROLE [db_owner] ADD MEMBER [xtranslationsImpactGlobalLive]
+ALTER ROLE db_owner ADD MEMBER xtranslationsMillenialstage
 
-CREATE USER [xorderImpactGlobalLive] FOR LOGIN [xorderImpactGlobalLive] WITH DEFAULT_SCHEMA=[dbo]
+CREATE USER xorderMillenialstage FOR LOGIN xorderMillenialstage WITH DEFAULT_SCHEMA=dbo
 GO
-ALTER ROLE [db_owner] ADD MEMBER [xorderImpactGlobalLive]
+ALTER ROLE db_owner ADD MEMBER xorderMillenialstage
 
-CREATE USER [xruntasksImpactGlobalLive] FOR LOGIN [xruntasksImpactGlobalLive] WITH DEFAULT_SCHEMA=[dbo]
+CREATE USER xruntasksMillenialstage FOR LOGIN xruntasksMillenialstage WITH DEFAULT_SCHEMA=dbo
 GO
-ALTER ROLE [db_owner] ADD MEMBER [xruntasksImpactGlobalLive]
+ALTER ROLE db_owner ADD MEMBER xruntasksMillenialstage
 
-CREATE USER [xwebservicescommImpactGlobalLive] FOR LOGIN [xwebservicescommImpactGlobalLive] WITH DEFAULT_SCHEMA=[dbo]
+CREATE USER xwebservicescommMillenialstage FOR LOGIN xwebservicescommMillenialstage WITH DEFAULT_SCHEMA=dbo
 GO
-ALTER ROLE [db_owner] ADD MEMBER [xwebservicescommImpactGlobalLive]
+ALTER ROLE db_owner ADD MEMBER xwebservicescommMillenialstage
 
-CREATE USER [xapiImpactGlobalLive] FOR LOGIN [xapiImpactGlobalLive] WITH DEFAULT_SCHEMA=[dbo]
+CREATE USER xapiMillenialstage FOR LOGIN xapiMillenialstage WITH DEFAULT_SCHEMA=dbo
 GO
-ALTER ROLE [db_owner] ADD MEMBER [xapiImpactGlobalLive]
+ALTER ROLE db_owner ADD MEMBER xapiMillenialstage
 
-CREATE USER [xautoshipImpactGlobalLive] FOR LOGIN [xautoshipImpactGlobalLive] WITH DEFAULT_SCHEMA=[dbo]
+CREATE USER xautoshipMillenialstage FOR LOGIN xautoshipMillenialstage WITH DEFAULT_SCHEMA=dbo
 GO
-ALTER ROLE [db_owner] ADD MEMBER [xautoshipImpactGlobalLive]
+ALTER ROLE db_owner ADD MEMBER xautoshipMillenialstage
 
-CREATE USER [xcorporateImpactGlobalLive] FOR LOGIN [xcorporateImpactGlobalLive] WITH DEFAULT_SCHEMA=[dbo]
+CREATE USER xcorporateMillenialstage FOR LOGIN xcorporateMillenialstage WITH DEFAULT_SCHEMA=dbo
 GO
-ALTER ROLE [db_owner] ADD MEMBER [xcorporateImpactGlobalLive]
+ALTER ROLE db_owner ADD MEMBER xcorporateMillenialstage
 
-CREATE USER [xenrollImpactGlobalLive] FOR LOGIN [xenrollImpactGlobalLive] WITH DEFAULT_SCHEMA=[dbo]
+CREATE USER xenrollMillenialstage FOR LOGIN xenrollMillenialstage WITH DEFAULT_SCHEMA=dbo
 GO
-ALTER ROLE [db_owner] ADD MEMBER [xenrollImpactGlobalLive]
+ALTER ROLE db_owner ADD MEMBER xenrollMillenialstage
 
 
 
