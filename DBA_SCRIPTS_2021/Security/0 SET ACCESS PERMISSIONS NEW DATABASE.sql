@@ -124,7 +124,7 @@ GO
 
 --------------------------------------7---------------------------
 --  Permission  ReadExecute to Schemas
-declare @nameUser sysname='NetShare_Dev ReadExecute'
+declare @nameUser sysname='NetShare_Stage ReadExecute'
 
 select 'GRANT EXECUTE ON SCHEMA:: ' + QUOTENAME(sc.name) + ' TO '+  QUOTENAME(@nameUser) ,sc.schema_id
 from sys.schemas sc 
