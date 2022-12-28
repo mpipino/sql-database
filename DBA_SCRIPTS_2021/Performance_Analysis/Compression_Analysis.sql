@@ -12,7 +12,7 @@ INNER JOIN sys.indexes i ON t.OBJECT_ID = i.object_id
 INNER JOIN sys.partitions p ON i.object_id = p.OBJECT_ID AND i.index_id = p.index_id
 INNER JOIN sys.allocation_units a ON p.partition_id = a.container_id
 LEFT OUTER JOIN sys.schemas s ON t.schema_id = s.schema_id
-WHERE t.NAME NOT LIKE 'dt%' AND t.is_ms_shipped = 0 AND i.OBJECT_ID > 255 
+--WHERE t.NAME NOT LIKE 'dt%' AND t.is_ms_shipped = 0 AND i.OBJECT_ID > 255 
 GROUP BY t.OBJECT_ID, t.Name, s.Name
 HAVING SUM(a.used_pages) * 8 / 1024 / 1024 > 25
 ORDER BY SUM(a.used_pages) DESC
@@ -36,7 +36,7 @@ order by GBTabla desc
  
 SET NOCOUNT ON
 SELECT 'ALTER INDEX '+ '[' + i.[name] + ']' + ' ON ' + '[' + s.[name] + ']' + '.' + '[' + o.[name] + ']' 
-+ ' REBUILD WITH (DATA_COMPRESSION=PAGE); --26 gb 42 minutos y cancele'
++ ' REBUILD WITH (DATA_COMPRESSION=PAGE); '
 	, ps.[reserved_page_count],*
 FROM sys.objects AS o WITH (NOLOCK)
 INNER JOIN sys.indexes AS i WITH (NOLOCK)

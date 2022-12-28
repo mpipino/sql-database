@@ -47,7 +47,7 @@ GO
 IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.ROUTINES WHERE ROUTINE_NAME = 'dba.sp_WhoIsActive')
 	EXEC ('CREATE PROC dba.sp_WhoIsActive AS SELECT ''stub version, to be replaced''')
 GO
-
+--drop procedure dba.sp_WhoIsActive
 /*********************************************************************************************
 Who Is Active? v11.32 (2018-07-03)
 (C) 2007-2018, Adam Machanic
@@ -62,7 +62,7 @@ License:
 	of Who is Active?, in whole or in part, is prohibited without the author's express 
 	written consent.
 *********************************************************************************************/
-create PROC #sp_WhoIsActive
+alter PROC dba.sp_WhoIsActive
 (
 --~
 	--Filters--Both inclusive and exclusive

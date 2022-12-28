@@ -2,14 +2,14 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'DBO.##CommandExecute') AND type in (N'P', N'PC'))
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'DBO.CommandExecute') AND type in (N'P', N'PC'))
 BEGIN
-EXEC dbo.sp_executesql @statement = N'CREATE PROCEDURE DBO.##CommandExecute AS'
+EXEC dbo.sp_executesql @statement = N'CREATE PROCEDURE DBO.CommandExecute AS'
 END
 GO
 
 --drop PROCEDURE DBO.##CommandExecute
-ALTER PROCEDURE DBO.##CommandExecute
+ALTER PROCEDURE DBO.CommandExecute
 
 @DatabaseContext nvarchar(max),
 @Command nvarchar(max),
