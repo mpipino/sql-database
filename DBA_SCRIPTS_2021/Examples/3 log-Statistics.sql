@@ -22,7 +22,7 @@
 --UPDATE STATISTICS [Warehouse_Folio_Details] [Ix_Nn_Warehouse_Folio_Details_FolioId_WarehouseId_Include] WITH FULLSCAN
 --UPDATE STATISTICS [Bl_Autoship_Distributor_Discounts] [PkBl_Autoship_Distributor_Discounts_Id] WITH FULLSCAN
 --UPDATE STATISTICS [Bl_Autoship_Distributor_Discounts] [Ix_Nn_Bl_Autoship_Distributor_Discounts_DistLegacyNumber_Status] WITH FULLSCAN
--- Demoró segundos.
+-- Demorï¿½ segundos.
 
 ----UPDATE STATISTICS [tbl_ReplicatedSites] [Ix_Nn_tbl_ReplicatedSites_ReplicatedSite_Status_DistributorID] WITH FULLSCAN
 --UPDATE STATISTICS [PromoCodeDetail] [Ix_Nn_PromoCodeDetail_PromoCodeID_DistributorLegacyNumber] WITH FULLSCAN
@@ -9580,7 +9580,6 @@ Date and time: 2021-03-06 11:03:08
 	
 Date and time: 2021-03-06 11:03:08
 Database context: [BodyLogic_Live]
-Command: UPDATE STATISTICS [dbo].[Commissions_Distributor] [_WA_Sys_00000013_40058253]
 Comment: ObjectType: Table, IndexType: Column, Incremental: N, RowCount: 4876605, ModificationCounter: 52278
 Outcome: Succeeded
 Duration: 00:00:00
